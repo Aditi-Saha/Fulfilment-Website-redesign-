@@ -1,0 +1,67 @@
+@media (max-width:575.98px){
+    .section_op{
+       padding-left: 40px;
+       padding-right: 40px;
+    }
+}
+ 
+ @media (min-width:990px){
+    .collapse ul{
+     display: none;
+    }
+   }
+   @media (max-width:989.98px){
+     .hidden{
+       display: none;
+     }
+   }
+   
+ @media (max-width:991.98px){
+    .header{
+     height: 65px;
+     background-color: #d30926;
+     padding: 0px;
+     margin: 0px;
+    }
+    
+ }
+ @media (max-width:991.98px){
+    .logo1{
+       display: none;
+    }
+    .logo2{
+       display: block;
+    }
+ }
+ 
+ @media (max-width:575.98px){
+    .fba{
+     max-width: 300px;
+     padding: 15px;
+  }
+  }
+  @media (max-width:767.98px){
+    .description1{
+        font-size: 15px;
+        padding-top: 0px;
+    }
+  }
+  @media (max-width:991px){
+   .popup{
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      border-radius: 5px; 
+      padding: 15px;
+      display: block;
+      max-width: 67%;
+   }
+   .popup h4{
+      font-weight: 700;
+      font-size: 15px;
+   }
+   .number{
+      padding-left: 0px;
+   }
+   
+ }

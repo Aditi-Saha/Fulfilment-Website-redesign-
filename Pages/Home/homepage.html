@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="homepage_responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      /* Custom styles */
+      .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+      }
+    </style>
+</head>
+<body>
+  <div>
+    <nav class="header navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid mt-0">
+        <button class=" navbar-toggler ms-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+        </button>
+        <a class="navbar-brand logo1" href="#"><img src="Images/logo.png" alt=""></a>
+        <a class="navbar-brand logo2" href="#"><img src="Images/resize.webp" alt="" style="padding-top: 0rem; padding-bottom: 0rem;"></a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContact" aria-controls="navbarContact" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-solid fa-ellipsis-vertical fa-xl" style="color: #ffffff;"></i>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav" style="z-index: 9;">
+          <ul class="nav border justify-content-left" style="background-color:#212121; width: 57%;">
+            <li class="nav-item " >
+              <a class="nav-link active " style="color: white; font-weight: 700;" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: white;  font-weight: 700;" aria-current="page" href="#">Amazon FBA Prep Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;  font-weight: 700;" href="#">Multi-channel Fulfillment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;  font-weight: 700;" href="#">3PL-Prep Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;  font-weight: 700;" href="#">Shippping Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;  font-weight: 700;" href="#">Fulfillment Add-Ons</a>
+            </li>
+      </ul>
+  </div>
+        <div class="popup collapse navbar-collapse ms-auto" id="navbarContact" style="z-index: 9;">
+          <div class="ms-auto d-md-flex" id="navbarContact">
+            <div class="me-4">
+              <span><i class="fa fa-solid fa-phone" style="color: #d30926;"></i></span>
+              <span>CUSTOMER SUPPORT & SALES</span> <br>
+              <h4 class="number">+44 121 6616357</h4>
+            </div>
+            <div class="">
+              <span><i class="fa fa-solid fa-clock" style="color: #d30926;"></i></span>
+              <span>OPENING HOURS</span> <br>
+              <h4 class="number">Mon - Sat : 08:00 - 18:00</h4>
+            </div>
+            </div>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="hidden">
+    <ul class="nav border justify-content-center" id="navbarNav" style="background-color:#d30926">
+      <li class="nav-item ps-3" >
+        <a class="nav-link active " style="color: white; font-weight: 700;" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" style="color: white;  font-weight: 700;" aria-current="page" href="#">Amazon FBA Prep Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: white;  font-weight: 700;" href="#">Multi-channel Fulfillment</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: white;  font-weight: 700;" href="#">3PL-Prep Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: white;  font-weight: 700;" href="#">Shippping Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: white;  font-weight: 700;" href="#">Fulfillment Add-Ons</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+    <div class="carousel-indicators d-none d-md-block">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/Banner1.webp" class="d-block w-100" alt="...">
+        <div class="slide carousel-caption justify-content-center p-3" style="background: rgba(0, 0, 0, 0.6);">
+          <h2>A Reliable Wholesale Distributor For Successful Sellers</h2>
+          <h4>10 Years of Thorough research = Diverse Product Line for Selling on E-commerce Platforms.</h4>
+       
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #d30926; color: white;">
+  Start Shipping Today
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel" style="color: black;">Contact Us</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <div class="input-group">
+              <input type="text" aria-label="First name" class="form-control" placeholder="Name">
+          </div>
+    </div>
+    <div class="mb-3">
+      <div class="input-group">
+          <input type="text" aria-label="First name" class="form-control" placeholder="Phone Number">
+      </div>
+</div>
+<div class="mb-3">
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+</div>
+<div class="mb-3">
+  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write Your Query" rows="3"></textarea>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn" style="background-color: #d30926; color: white;">Submit Your Query</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/Banner2.webp" class="d-block w-100" alt="...">
+        <div class="slide carousel-caption p-3" style="background: rgba(0, 0, 0, 0.6);">
+          <h2>We Stock! We Pack! We Ship! We Deliver!</h2>
+          <h4>Prompt E-commerce Shipping & Efficient Delivery Services For Your Satisfaction. Get-Rich-Quick Drop-shipping.</h4>
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="background-color: #d30926; color: white;">
+           Get A Quote
+          </button>
+          
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="exampleModalLabel" style="color: black;">Contact Us</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <div class="input-group">
+                        <input type="text" aria-label="First name" class="form-control" placeholder="Name">
+                    </div>
+              </div>
+              <div class="mb-3">
+                <div class="input-group">
+                    <input type="text" aria-label="First name" class="form-control" placeholder="Phone Number">
+                </div>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write Your Query" rows="3"></textarea>
+          </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn" style="background-color: #d30926; color: white;">Submit Your Query</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/Banner3.webp" class="d-block w-100" alt="...">
+        <div class="slide carousel-caption p-3" style="background: rgba(0, 0, 0, 0.6);">
+          <h2>Dependable Distributor Strong Bonds with Top Brands!!</h2>
+          <h4>Access to over 2000 most reputable brands across the UK and the rest of the world.</h4>
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2" style="background-color: #d30926; color: white;">
+            See Our Rates
+          </button>
+          
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="exampleModalLabel" style="color: black;">Contact Us</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <div class="input-group">
+                        <input type="text" aria-label="First name" class="form-control" placeholder="Name">
+                    </div>
+              </div>
+              <div class="mb-3">
+                <div class="input-group">
+                    <input type="text" aria-label="First name" class="form-control" placeholder="Phone Number">
+                </div>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write Your Query" rows="3"></textarea>
+          </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn" style="background-color: #d30926; color: white;">Submit Your Query</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+<div class="latest_post">
+        <div class="footer_widget wow fadeInDown animated" style="visibility: visible; animation-name: fadeInRight;">
+            <ul class="tag_nav navlatestpost">
+                <marquee scrollamount="10" direction="left" loop="true" height="50" >
+
+   
+      <div class="mediapost">
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$rptrlatestpost$ctl01$hfid" id="ContentPlaceHolder1_rptrlatestpost_hfid_1" value="700">
+        <div class="latestpostt">
+          <a href="" class="img-latestpost">
+           
+            <b class="text-latestpost">
+              </b></a><b class="text-latestpost"><a id="ContentPlaceHolder1_rptrlatestpost_lbltitle_1" class="catg_title" href="#" style="   color: #d30926; text-decoration: none;">Launch your online business with low deposit! Access streamlined wholesale, warehousing, e-commerce. <img class="click_here" href="#" src="Images/click-here.gif" alt=""></a>
+            </b>
+          </div>
+      </div>
+   </marquee>
+    </ul>
+    </div>
+    </div>
+
+  <section class="section_op section-75 section-md-120 section-lg-120 section-xl-80  mb-3">
+    <div class="container  ">
+      <div class="row">
+        <div class="description1 col-sm-10 col-md-12 col-lg-12 pt-0 p-5 justify-content-sm-center">
+          <p>
+            Spacebox Fulfilment is the foundation of e-commerce success for online traders in the UK and around Europe. In the fast-paced digital marketplace, where efficiency, reliability, and customer satisfaction dictate the rhythm of growth, Spacebox Fulfilment emerges as your trusted ally. Our mission is to transform the complexities of online trading into streamlined, seamless processes, allowing you to focus on what you do best: growing your business.
+          </p>
+        </div>
+        <div class="section1_responsive col-sm-6 col-md-6 col-lg-3">
+         <div class="card border-0 pt-4 pb-4">
+          <div class="text-center">
+            <img src="Images/TOP_SERVICES.webp" alt="">
+          </div>
+          <p class="title text-center h5 position-relative pb-20" style="font-weight: 600;">
+            Top Services
+          </p>
+          <p class="">
+            Enriching Experiences: Dedicated to Quality Service.
+          </p>
+         </div>
+        </div>
+        <div class="section1_responsive col-sm-6 col-md-6 col-lg-3">
+          <div class="card border-0 pt-4 pb-4">
+           <div class="text-center">
+             <img src="Images/Convinent_location.webp" alt="">
+           </div>
+           <p class="title text-center h5 position-relative pb-20" style="font-weight: 600;">
+            Convenient Location
+           </p>
+           <p class=" ">
+            Global E-commerce Solutions: UK, & around Europe.
+           </p>
+          </div>
+         </div>
+         <div class="section1_responsive col-sm-6 col-md-6 col-lg-3">
+          <div class="card border-0 pt-4 pb-4">
+           <div class="text-center">
+             <img src="Images/KNOWLEDGE.webp" alt="">
+           </div>
+           <p class="title text-center h5 position-relative pb-20" style="font-weight: 600;">
+            Knowledge
+           </p>
+           <p class="">
+            Marketplace Knowledge: Tailored for Success.
+           </p>
+          </div>
+         </div>
+         <div class="section1_responsive col-sm-6 col-md-6 col-lg-3">
+          <div class="card border-0 pt-4 pb-4">
+           <div class="text-center">
+             <img src="Images/EXPERIENCE.webp" alt="">
+           </div>
+           <p class="title text-center h5 position-relative pb-20" style="font-weight: 600;">
+            Experience
+           </p>
+           <p class="">
+            Expertise Through Experience: Serving Diverse Needs.
+           </p>
+          </div>
+         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_op section-75 section-md-120 section-lg-120 section-xl-80  mb-5" style="margin-top: 95px;">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <h2 class="pb-3" style="font-weight: 700;">Start Your E-Commerce Operations With Spacebox Fulfilment</h2>
+          <p>Our operations feature an array of services, perfectly designed to cover every aspect of e-commerce logistics. From multi-channel fulfilment that broadens your market reach to specialised Amazon FBA services tailored for the platform's unique demands, we ensure that your logistics are in sync with your sales strategy. Our 3PL PREP Services prepare your products to meet the highest standards, while our versatile shipping solutions navigate the intricacies of global distribution with ease.</p>
+            <div class="container mt-0 pt-0">
+              <div id="owl-two" class="owl-carousel owl-theme owl-loaded owl-drag">
+                <div class="item">
+                  <img src="Images/AMZ.webp" alt="Product 1">
+                </div>
+                <div class="item">
+                  <img src="Images/DHL.webp" alt="Product 2">
+                </div>
+                <div class="item">
+                  <img src="Images/DPD.webp" alt="Product 3">
+                </div>
+                <div class="item">
+                  <img src="Images/Ebay.webp" alt="Product 3">
+                </div>
+                <div class="item">
+                  <img src="Images/etsy.webp" alt="Product 3">
+                </div>
+                <div class="item">
+                  <img src="Images/Hermes.webp" alt="Product 3">
+                </div>
+                <div class="item">
+                  <img src="Images/RM.webp" alt="Product 3">
+                </div>
+                <div class="item">
+                  <img src="Images/Shopify.webp" alt="Product 3">
+                </div>
+                <div class="item">
+                  <img src="Images/Tiktok.webp" alt="Product 3">
+                </div>
+                <div class="item">
+                  <img src="Images/UPS.webp" alt="Product 3">
+                </div>
+                <div class="item">
+                  <img src="Images/WC.webp" alt="Product 3">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_op section-75 section-md-120 section-lg-120 section-xl-80 mt-5 pt-5 pb-5">
+    <div class="container text-left">
+      <div class="row g-3">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="card p-5 justify-content-sm-center" style="background-image:url(Images/Multichannel.webp); box-shadow: inset 300px 0 500px rgba(0, 0, 0, 0.8);
+          color: #fff; height: 355px; background-size: contain; background-repeat: no-repeat;">
+           <div class="d-block" style="max-width: 400px;">
+            <p class=" h5 title"><a href="" style="text-decoration: none; color: white; font-size: 22px; font-weight: 700;">Confirmed Multi-Channel Fulfilment</a></p>
+            <p>We take pride in our commitment to confirmed multi-channel fulfilment. SpaceboxFulfilment ensures that all the order fulfilment services are customised to the client’s specific needs, ensuring prompt e-commerce shipping service and timely and hassle-free delivery.</p>
+          </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="card p-5 justify-content-sm-center" style="background-image:url(Images/FBA.webp); box-shadow: inset 300px 0 500px rgba(0, 0, 0, 0.8);
+          color: #fff; height: 352px;  background-size: contain; background-repeat: no-repeat;">
+           <div class="d-block" style="max-width: 400px;">
+            <p class="h5 title"><a href="" style="text-decoration: none; color: white; font-size: 22px; font-weight: 700;">Confirmed Multi-Channel Fulfilment</a></p>
+            <p>We take pride in our commitment to confirmed multi-channel fulfilment. SpaceboxFulfilment ensures that all the order fulfilment services are customised to the client’s specific needs, ensuring prompt e-commerce shipping service and timely and hassle-free delivery.</p>
+          </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="card p-5 justify-content-sm-center" style="background-image:url(Images/3PL.webp); box-shadow: inset 300px 0 500px rgba(0, 0, 0, 0.8);
+          color: #fff; height: 352px;background-size: contain; background-repeat: no-repeat;">
+           <div class="d-block" style="max-width: 400px;">
+            <p class="h5 title"><a href="" style="text-decoration: none; color: white; font-size: 22px; font-weight: 700;">Confirmed Multi-Channel Fulfilment</a></p>
+            <p>We take pride in our commitment to confirmed multi-channel fulfilment. SpaceboxFulfilment ensures that all the order fulfilment services are customised to the client’s specific needs, ensuring prompt e-commerce shipping service and timely and hassle-free delivery.</p>
+          </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="card p-5 justify-content-sm-center" style="background-image:url(Images/fastanddropshipping.webp); box-shadow: inset 300px 0 500px rgba(0, 0, 0, 0.8);
+          color: #fff; height: 352px; background-size: contain; background-repeat: no-repeat;">
+           <div class="d-block" style="max-width: 400px;">
+            <p class="h5 title"><a href="" style="text-decoration: none; color: white; ">Confirmed Multi-Channel Fulfilment</a></p>
+            <p>We take pride in our commitment to confirmed multi-channel fulfilment. SpaceboxFulfilment ensures that all the order fulfilment services are customised to the client’s specific needs, ensuring prompt e-commerce shipping service and timely and hassle-free delivery.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row mt-5">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 mt-5">
+              <img class="aboutushome" src="Images/aboutushome.webp" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6 mt-5 justify-content-center">
+              <h2 style="font-weight: 600;">Why Spacebox Fulfilment Stands Out</h2>
+              <h5>Tailored Solutions</h5>
+              <p>Recognising the diversity in e-commerce business models, we offer customised solutions. Our approach is to understand your specific needs and craft services that align perfectly with your operational requirements, ensuring maximum efficiency and cost savings.</p>
+              <h5>Extensive Network</h5>
+              <p>Extend your reach far beyond local markets with our international fulfilment and shipping services. Our extensive network ensures that your products can reach customers anywhere in the world, opening up endless possibilities for growth and expansion.</p>
+              <h5>Advanced Technology</h5>
+              <p>Leveraging the latest in API and WMS panel technology, we offer unparalleled transparency and control over your inventory and orders. Our systems provide real-time insights, empowering you with the information needed to make strategic decisions and stay ahead in the competitive e-commerce landscape.</p>
+              <h5>Dedicated Support</h5>
+              <p>At Spacebox Fulfilment, we believe in building partnerships. Our team of experts is dedicated to your success, offering personalised support and guidance from the initial setup to the daily nuances of e-commerce logistics.</p>
+            </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_op bg-image-filter bg-image bg-image-fixed section-xxl parallax " style="background-image: url(Images/contactushome.webp); background-color: rgba(30, 43, 67, 0.57);">
+  <div class="container" style="position: relative; z-index: 1; display: flex;">
+    <div class="row text-center" style="padding-top: 20vh;">
+      <div class="col ">
+        <h2 style="color: white;">
+         <span>EMPOWER YOUR BUSINESS WITH OUR WHOLESALE AND FULFILMENT SOLUTIONS</span>
+         Download Our Excel Sheet Now To Increase Your Productivity!
+        </h2>
+        <button type="button" class="button btn btn-lg ">Download File</button>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="section_op bg-image-filter bg-image bg-image-fixed section-xxl parallax" style="background-image: url(Images/contactushome.webp); background-color: rgba(30, 43, 67, 0.57); margin-top: 10px;">
+    <div class="container" style="position: relative; z-index: 1;">
+      <div class="row text-center" style="padding-top: 20vh;">
+        <div class="col">
+          <h2 style="color: white;">
+           <span>AFFORDABLE FULFILMENT & SHIPPING SOLUTIONS</span>
+           We are at your service For Premium Distribution & Logistic Solutions
+          </h2>
+          <button type="button" class="button btn" data-bs-toggle="modal" data-bs-target="#exampleModal_C">
+           Contact Us
+           </button>
+           
+           <div class="modal modal_C" id="exampleModal_C" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <h4 class="modal-title" id="exampleModalLabel" style="color: black;">Contact Us</h4>
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                   <div class="mb-3">
+                     <div class="input-group">
+                         <input type="text" aria-label="First name" class="form-control" placeholder="Name">
+                     </div>
+               </div>
+               <div class="mb-3">
+                 <div class="input-group">
+                     <input type="text" aria-label="First name" class="form-control" placeholder="Phone Number">
+                 </div>
+           </div>
+           <div class="mb-3">
+             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+           </div>
+           <div class="mb-3">
+             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write Your Query" rows="3"></textarea>
+           </div>
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                   <button type="button" class="btn" style="background-color: #d30926; color: white;">Submit Your Query</button>
+                 </div>
+               </div>
+             </div>
+           </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="section_op section-75 section-md-120 section-lg-120 section-xl-80 mt-5 pt-5 pb-5">
+    <div class="container text-left">
+      <div class="row justify-content-left">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7 mt-5 pb-5">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header font-weight-bold" id="flush-headingOne" style="font-weight: 700;">
+                Frequently Asked Questions
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What does a Multi-channel fulfilment service entail?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">A Multi-channel fulfilment service involves the management and fulfilment of orders across multiple sales channels, such as online marketplaces, retail stores, and more. It ensures that orders are efficiently processed, picked, packed, and shipped to customers regardless of the sales channel they originated from.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What is the minimum order requirement for qualifying for free delivery?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The minimum order requirement to qualify for Free delivery varies and is subject to our current policies. Please contact our customer service for the latest information on eligibility for free delivery.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  What is the estimated additional wait time for delivery?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The estimated additional wait time for delivery may range from 1 to 2 days depending on various factors, including the shipping method chosen, and the destination of the package, but SpaceboxWholesale strive to provide accurate delivery estimates at the time of purchase.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Where can I find your displayed rates?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Our displayed rates can be found on our website, typically in the shipping or pricing section. You can also inquire about rates by contacting our customer service team directly.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  How do I place an order online?
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placing an order online is simple. Visit our website, download the stocklist sheet, select the items you wish to purchase, and add the number of cases. Contact our customer service team to complete the payment and shipping process.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Do you consider your rates to be competitive?
+                </button>
+              </h2>
+              <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">SpaceboxWholesale continuously strives to offer competitive rates for our products and services. Our pricing is based on factors such as quality, convenience, and market standards. We regularly review and adjust our rates to remain competitive in the industry.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                  Are there any available coupons or exclusive offers?
+                </button>
+              </h2>
+              <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">We occasionally offer coupons and exclusive deals to our customers. These promotions may vary in availability and terms. Stay updated by subscribing to our newsletter or following us on social media to receive notifications about any ongoing offers.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                  What are your policies regarding refunds and returns?
+                </button>
+              </h2>
+              <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Our policies regarding refunds and returns are outlined in our terms and conditions, which can typically be found on our website. We aim to provide fair and transparent procedures for handling returns and issuing refunds by applicable laws and regulations.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                  Is it possible to collect items from your storage facility?
+                </button>
+              </h2>
+              <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Yes, it is possible to arrange for item pickup from our Spacebox storage facility. Please contact our customer service team to schedule a pickup time and ensure that your items are ready for collection.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                  Are you shipping directly to Amazon warehouses?
+                </button>
+              </h2>
+              <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">We offer shipping services to various destinations, including Amazon warehouses. If you require direct shipping to an Amazon warehouse, please provide the necessary details during the checkout process, or contact our customer service team for assistance with arranging the shipment.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted p-3" style="background-color:#252d36 !important;">
+      <section class="" style="color: white !important;">
+         <div class="container text-center text-md-start mt-5"> 
+           <div class="row mt-3">
+            
+             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              
+               <h6 class="text-uppercase fw-bold mb-4">
+                 <img src="Images/brand-white-229x58.webp" class="imlogo-img" alt="">
+               </h6>
+               <p>For over a decade, SpaceboxFulfilment has dedicated itself to extensive research, catering to thriving online retailers, small businesses, and even stay-at-home parents across the UK and Europe. Through our commitment, we have forged strong alliances with esteemed wholesalers, warehousing facilities and e-commerce service providers, positioning ourselves as a dependable one-stop shop for online traders.
+               </p>
+             </div>
+             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" >
+              <h6 class="text-uppercase fw-bold mb-4">
+               About Us
+              </h6>
+              <p>
+                <a href="#" class="text-reset" style="text-decoration: none;">Information</a>
+              </p>
+              <p>
+                <a href="#" class="text-reset" style="text-decoration: none;">Address</a>
+              </p>
+              <p>
+                <a href="#" class="text-reset" style="text-decoration: none;">Follow Us</a>
+              </p>
+            </div>
+            
+             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+               
+               <h6 class="text-uppercase fw-bold mb-4">
+                Information
+               </h6>
+               <p>
+                 <a href="#" class="text-reset" style="text-decoration: none;">About Us</a>
+               </p>
+               <p>
+                 <a href="#" class="text-reset" style="text-decoration: none;">Contact Us</a>
+               </p>
+               <p>
+                 <a href="#" class="text-reset" style="text-decoration: none;">Privacy Policy</a>
+               </p>
+               <p>
+                 <a href="#" class="text-reset" style="text-decoration: none;">Terms & Conditions</a>
+               </p>
+             </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4 justify-content-left">
+          <h6 class="text-uppercase fw-bold mb-4">
+          Address
+          </h6>
+          <p><i class="fa fa-home mr-3" style="color: #ffde00;"></i> Lorem ipsum dolor</p>
+          <p><i class="fa fa-envelope mr-3" style="color: #ffde00;"></i> info@example.com</p>
+          <p><i class="fa fa-phone mr-3" style="color: #ffde00;"></i> + 01 234 567 88</p>
+          </div>
+           
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Follow us 
+            </h6>
+            <a href="#"><i class="fa fa-brands fa-facebook-f me-2" style="color: white;"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter me-2" style="color:white"></i></a>
+              <a href="#"><i class="fa fa-brands fa-instagram me-2" style="color: white;"></i></a>
+              <a href="#"><i class="fa fa-brands fa-google-plus-g me-2" style="color: white;"></i></a>
+              <a href="#"><i class="fa fa-brands fa-pinterest me-2" style="color: white;"></i></a>
+             </div>
+          </div> 
+         </div>
+        </section>
+        </footer>
+        <section class="w-100" style="background-color: #1f262f;" >
+          <div class="container" >
+            <div class="row">
+              <div class="col-6">
+                <div class="text-lg-start p-4" style="color: white !important;">
+                  <div class="responsive-font-example1">
+                    Copyright 2024 All rights reserved by Spacebox Fulfilment.
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-lg-end p-4" style="color: white !important;">
+                  <div class="responsive-font-example1">
+                    Privacy Policy. Design by
+                    <a class="text-reset fw-bold" href="https://mezzex.com/"  target="_blank">Mezzex</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('#owl-two').owlCarousel({
+      items: 1,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      animateOut: 'fadeOut',
+      animateIn: 'fadeInDown',
+      responsiveClass:true,
+      responsive:{
+          0:{
+              items:2,
+              nav:false
+          },
+          600:{
+              items:3,
+              nav:false
+          },
+          1000:{
+              items:5,
+              nav:false
+          }
+      }
+    });
+  });
+
+  $(function() {
+  $(document).click(function (event) {
+    $('.navbar-collapse').collapse('hide');
+  });
+});
+</script>
+</body>
+</html>
